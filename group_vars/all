@@ -1,0 +1,11 @@
+---
+users:
+  - username: user
+    name: user
+    groups: ['wheel','systemd-journal']
+    uid: 1001
+    home: /home/user
+    password: "put password here"
+    ssh_key:
+      - "put ssh-key here"
+
